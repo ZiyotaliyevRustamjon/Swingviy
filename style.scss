@@ -1,0 +1,754 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$linksColor:#1C202B;
+$btnColor:#0A61F7;
+$textColor:black;
+$bodyColor:white;
+$section1Background:#F3F8FF;
+$section2Title1:#657085;
+$linkbarTitle1:#EAF3FF;
+$linkbarTitle2:#FFF8E4;
+$linkbarTitle3:#FFF3EF;
+$linkbarTitle4:#E2FBF2;
+$linkbarTitle5:#F1F1FC;
+$linkbarTitle6:#F3E5F5;
+$linkbarTitle7:#FFE5ED;
+$section5Background2:#FEC33E;
+
+
+
+
+
+
+.container{
+     //section1
+    .row{
+        header{
+            .header-logo{
+                margin-top: 22px;
+              
+            }
+            .links{
+                margin-left: 200px;
+                margin-top: -25px;
+                a{
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: $linksColor;
+                    margin-left: 50px;
+                }
+                .sigin-in1{
+                    margin-left: 189px;
+                }
+                .request-demo1{
+                    background-color: $btnColor;
+                    padding: 10px;
+                    color: $bodyColor;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    //section2
+    .row{
+        .background1{
+            width: 114.8%;
+            height: 850px;
+            background-color: $section1Background;
+            margin-top: 32px;
+            margin-left: -85px;
+
+            .section2-img2{
+                margin-left: 250px;
+            }
+
+            .section2-img3{
+                margin-left: 1165px;
+                margin-top: -280px;
+            }
+            .section2-img4{
+                margin-left: 80px;
+                margin-top: -50px;
+            }
+            .section2-img5{
+                margin-left: 730.2px;
+                margin-top: 20px;
+            }
+         
+            .section2-img7{
+                margin-left: 300px;
+                margin-top: 5px;
+            }
+            .section2-title1{
+                position: absolute;
+                margin-top: -530px;
+                margin-left: 550px;
+                font-size: 18px;
+                font-weight: 700;
+                font-family: Roboto;
+                letter-spacing: 1.8px;
+                line-height:18px;
+                color: $section2Title1;
+            }
+            .section2-title2{
+                position: absolute;
+                margin-top: -470px;
+                font-size: 57px;
+                margin-left: 440px;
+              
+                
+            }
+        }
+    }
+
+    //section3
+
+    .row{
+
+        .section3-title1{
+            font-size: 18px;
+            font-weight: 700px;
+            letter-spacing: 1.8px;
+            margin-top: 100px;
+            color: $section2Title1;
+        }
+        .section3-title2{
+            font-size: 39px;
+        }
+
+        .linkbar{
+            //link1
+            .linkbar-title1{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle1;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+            //link2
+            .linkbar-title2{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle2;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+            //link3
+            .linkbar-title3{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle3;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+              //link4
+              .linkbar-title4{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle4;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+            //link5
+            .linkbar-title5{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle5;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+             //link6
+             .linkbar-title6{
+                color: $textColor;
+                text-decoration: none;
+                h3{
+                    background-color:  $linkbarTitle6;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+             //link7
+             .linkbar-title7{
+                color: $textColor;
+                text-decoration: none;
+                width: 331px;
+                h3{
+                    background-color:  $linkbarTitle7;
+                    width: 331px;
+                    padding: 10px;
+                    border-radius: 8px;
+                    
+                }
+            }
+
+        }
+
+        .section3-img1{
+            position: absolute;
+            margin-left: 450px;
+            margin-top: -495px;
+        }
+        .section3-title3{
+            font-size: 22px;
+            font-weight: 400;
+            margin-left: 450px;
+            margin-top: -60px;
+        }
+        .section3-link11{
+            font-size: 14px;
+            text-decoration: none;
+            background-color: $btnColor;color: $bodyColor;
+            margin-left: 450px;
+            padding: 10px;
+            border-radius: 4px;
+            position: absolute;
+            margin-top: 10px;
+        }
+
+    }
+
+    //section4
+    .row{
+
+        .section4-title1{
+            margin-top: 350px;
+            font-size: 18px;
+            letter-spacing: 1.8px;
+            color: $section2Title1;
+        }
+        .section4-title2{
+            font-size: 40px;
+            letter-spacing: 0.8px;
+        }
+        .cards{
+
+            //card1
+            .card1{
+                .card1-title{
+                    font-size: 21px;
+                    color:$btnColor;
+                }
+                .card1-text{
+                    font-size: 20px;
+                }
+            }
+
+              //card2
+              .card2{
+                margin-left: 80px;
+                .card1-title{
+                    font-size: 21px;
+                    color:$btnColor;
+                }
+                .card1-text{
+                    font-size: 20px;
+                }
+            }
+
+
+             //card3
+             .card3{
+                margin-left: 80px;
+                .card1-title{
+                    font-size: 21px;
+                    color:$btnColor;
+                }
+                .card1-text{
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+    }
+
+    //section5
+
+    .row{
+
+        .background2{
+
+            width: 114.8%;
+            height: 800px;
+            background-color: $section5Background2;
+            margin-top: 216px;
+            margin-left: -85px;
+
+            .section5-title1{
+                font-size: 18px;
+                margin-top: 191px;
+                position: absolute;
+                margin-left: 184px;
+                
+                
+            }
+            .section5-title2{
+                font-size: 39px;
+                margin-top: 227px;
+                position: absolute;
+                margin-left: 184px;
+                font-weight: 700;
+                
+            }
+            .section5-text1{
+                font-size: 22px;
+                margin-top: 343px;
+                position: absolute;
+                margin-left: 184px;
+            }
+            .section5-link1{
+                font-size: 18px;
+                text-decoration: none;
+                color: $textColor;
+                background-color: $bodyColor;
+                padding: 10px;
+                margin-top: 510px;
+                position: absolute;
+                margin-left: 184px;
+                border-radius: 4px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .section5-img1{
+                margin-left: 800px;
+                margin-top: 235px;
+            }
+            .section5-img2{
+                margin-left: 800px;
+                margin-top: 35px;
+            }
+           
+           
+        }
+
+    }
+
+    //section6
+    .row{
+
+        .section5-title1{
+            font-size: 18px;
+            color: $section2Title1;
+            margin-top: 200px;
+            letter-spacing: 1.8px;
+        }
+        .section5-title2{
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+        }
+        .section5-img3{
+            width: 1200px;
+            margin-top: 32px;
+        }
+
+    }
+
+
+    //section7
+
+    .row{
+
+        .section7-title1{
+
+            font-size: 18px;
+            letter-spacing: 1.8px;
+            color: $section2Title1;
+            margin-top: 200px;
+
+        }
+
+        .section7-title2{
+
+            font-size: 39px;
+            font-weight: 700;
+
+        }
+
+        .section7-text1{
+
+            font-size: 22px;
+
+        }
+
+        .section7-text2{
+
+            font-size: 22px;
+
+        }
+        .section7-text3{
+
+            font-size: 22px;
+            margin-left: 300px;
+            margin-top: -175px;
+
+        }
+
+        .section7-text4{
+
+            font-size: 22px;
+            margin-left: 300px;
+            
+
+        }
+
+        .section7-img1{
+
+            margin-left: 550px;
+            margin-top: -370px;
+
+        }
+
+    }
+
+
+     //section9
+
+     .row{
+
+        .background3{
+
+            width: 114.8%;
+            height: 990px;
+            background-color: $btnColor;
+            margin-top: 232px;
+            margin-left: -85px;
+
+            .section8-title1{
+
+                font-size: 18px;
+                letter-spacing: 1.8px;
+                margin-top: 200px;
+                position: absolute;
+                margin-left: 180px;
+                color: $bodyColor;
+
+            }
+
+            .section8-title2{
+
+                font-size: 39px;
+                letter-spacing: 0.8px;
+                margin-left: 180px;
+                margin-top: 250px;
+                position: absolute;
+                color: $bodyColor;
+
+            }
+
+            .section8-text1{
+
+                font-size: 16px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 350px;
+                position: absolute;
+
+            }
+
+            .section8-text2{
+
+                font-size: 16px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 380px;
+                position: absolute;
+
+            }
+
+            .section8-text3{
+
+                font-size: 16px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 410px;
+                position: absolute;
+
+            }
+
+            .section8-text4{
+
+                font-size: 16px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 440px;
+                position: absolute;
+
+            }
+            .section8-title3{
+
+                font-size: 22px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 520px;
+                position: absolute;
+
+            }
+            .section8-title4{
+
+                font-size: 18px;
+                color: $bodyColor;
+                margin-left: 180px;
+                margin-top: 650px;
+                position: absolute;
+
+            }
+
+            .section8-img1{
+
+                margin-left: 180px;
+                margin-top: 790px;
+
+            }
+
+            .section8-card1{
+
+                width: 440px;
+                height: 400px;
+                background-color: $bodyColor;
+                margin-left: 750px;
+                margin-top: -660px;
+
+                .section8-card1-title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    position: absolute;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                }
+
+                .section8-card1-link{
+                    text-decoration: none;
+                    color: $bodyColor;
+                    background-color: $btnColor;
+                    padding: 20px;
+                    border-radius: 4px;
+                    margin-left: 20px;
+                    margin-top: 50px;
+                    position: absolute;
+                }
+            }
+        }
+
+     }
+
+
+     //section10
+
+     .row{
+
+        footer{
+
+            .section9-img1{
+                margin-top: 150px;
+            }
+
+        }
+
+     }
+
+     
+
+}
+
+
+// media querist
+
+
+//laptop 1024px
+
+@media (max-width: 1024px){
+  
+    .container{
+        .row{
+            header{
+                .header-logo{
+                    margin-left: 27px;
+                }
+                .links{
+                    margin-left: 200px;
+                    a{
+                        margin-left: 40px;
+                    }
+
+                    .sigin-in1{
+                        margin-left: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+//tablet 768px
+
+@media (max-width: 768px){
+  
+    .container{
+        .row{
+            header{
+                .header-logo{
+                    width: 130px;
+                    margin-left: 20px;
+                }
+                .links{
+                    margin-left: 180px;
+                    a{
+                        margin-left: 20px;
+                        font-size: 12px;
+                    }
+
+                    .sigin-in1{
+                        margin-left: 55px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+//mobil L 425px
+
+@media (max-width: 425px){
+  
+    .container{
+        .row{
+            header{
+                .header-logo{
+                    width: 200px;
+                    margin-left: 110px;
+                }
+                .links{
+                    margin-left: 10px;
+                    margin-top: 40px;
+                    a{
+                        margin-left: 20px;
+                        font-size: 15px;
+                    }
+
+                    .sigin-in1{
+                        margin-left: -270px;
+                        margin-top: 50px;
+                        position: absolute;
+                    }
+                    .request-demo1{
+                        margin-left: -200px;
+                        position: absolute;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+//mobil M 375px
+
+@media (max-width: 375px){
+  
+    .container{
+        .row{
+            header{
+                .header-logo{
+                    width: 200px;
+                    margin-left: 90px;
+                    
+                }
+                .links{
+                    margin-left: 10px;
+                    margin-top: 40px;
+                    a{
+                        margin-left: 20px;
+                        font-size: 13px;
+                    }
+
+                    .sigin-in1{
+                        margin-left: -270px;
+                        margin-top: 50px;
+                        position: absolute;
+                    }
+                    .request-demo1{
+                        margin-left: -200px;
+                        position: absolute;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+//mobil S 320px
+
+@media (max-width: 320px){
+  
+    .container{
+        .row{
+            header{
+                .header-logo{
+                    width: 200px;
+                    margin-left: 60px;
+                    
+                }
+                .links{
+                    margin-left: 10px;
+                    margin-top: 40px;
+                    a{
+                        margin-left: 20px;
+                        font-size: 10px;
+                    }
+
+                    .sigin-in1{
+                        margin-left: -210px;
+                        margin-top: 50px;
+                        position: absolute;
+                    }
+                    .request-demo1{
+                        margin-left: -140px;
+                        position: absolute;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+}
